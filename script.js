@@ -17,7 +17,7 @@ function square() {
     btn.textContent = "Check"
     btn.addEventListener("click" , () => {
         const finalValue = input.value**2;
-        result.innerHTML = `<p> The area of the square is: ${finalValue.toFixed(2).replace("." , ",")}`;
+        result.innerHTML = `<p> The area of the square is: ${finalValue.toFixed(2).replace("." , ",")} m^2.`;
     });
 };
 
@@ -43,7 +43,7 @@ function rectangle() {
     btn.textContent = "Check";
     btn.addEventListener("click", () => {
         const finalValue = inputb.value * inputh.value;
-        result.innerHTML = `<p>The area of the rectangle is: ${finalValue.toFixed(2).replace("." , ",")}`;
+        result.innerHTML = `<p>The area of the rectangle is: ${finalValue.toFixed(2).replace("." , ",")} m^2.`;
     });
 };
 
@@ -69,7 +69,7 @@ function rhombus() {
     btn.textContent = "Check";
     btn.addEventListener("click", () => {
         const finalValue = inputD.value * inputd.value / 2;
-        result.innerHTML = `<p>The area of the rhombus is: ${finalValue.toFixed(2).replace("." , ",")}`;
+        result.innerHTML = `<p>The area of the rhombus is: ${finalValue.toFixed(2).replace("." , ",")} m^2.`;
     });
 };
 
@@ -95,7 +95,7 @@ function parallelogram() {
     btn.textContent = "Check";
     btn.addEventListener("click", () => {
         const finalValue = inputb.value * inputh.value;
-        result.innerHTML = `<p>The area of the parallelogram is: ${finalValue.toFixed(2).replace("." , ",")}`;
+        result.innerHTML = `<p>The area of the parallelogram is: ${finalValue.toFixed(2).replace("." , ",")} m^2.`;
     });
 };
 
@@ -128,7 +128,7 @@ function trapezium() {
     btn.textContent = "Check";
     btn.addEventListener("click", () => {
         const finalValue = (Number(inputB.value) + Number(inputb.value)) * inputh.value / 2
-        result.innerHTML = `The area of the trapezium is: ${finalValue.toFixed(2).replace("." , ",")}`;
+        result.innerHTML = `The area of the trapezium is: ${finalValue.toFixed(2).replace("." , ",")} m^2.`;
     });
 };
 
@@ -154,7 +154,7 @@ function triangle() {
     btn.textContent = "Check";
     btn.addEventListener("click", () => {
         const finalValue = inputb.value * inputh.value / 2;
-        result.innerHTML = `<p>The area of the triangle is: ${finalValue.toFixed(2).replace("." , ",")}`;
+        result.innerHTML = `<p>The area of the triangle is: ${finalValue.toFixed(2).replace("." , ",")} m^2.`;
     })
 };
 
@@ -181,7 +181,7 @@ function circle() {
     btn.textContent = "Check";
     btn.addEventListener("click", () => {
         const finalValue = (inputr.value**2) * inputPi.value;
-        result.innerHTML = `The area of the circle is: ${finalValue.toFixed(2).replace("." , ",")}`
+        result.innerHTML = `The area of the circle is: ${finalValue.toFixed(2).replace("." , ",")} m^2.`
     });
 };
 
