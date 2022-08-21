@@ -34,7 +34,7 @@ function rectangle() {
     const inputh = document.createElement("input");
     inputh.type = "number";
     const labelh =  document.createElement("label");
-    labelh.textContent = "Height";
+    labelh.textContent = "Height: ";
     area.appendChild(labelh);
     labelh.appendChild(inputh);
 
